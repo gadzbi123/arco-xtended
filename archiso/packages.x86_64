@@ -8,7 +8,6 @@ amd-ucode
 arch-install-scripts
 #archinstall
 #b43-fwcutter
-base
 bind
 #brltty
 broadcom-wl-dkms
@@ -50,7 +49,8 @@ irssi
 #iw
 #iwd
 jfsutils
-#kitty-terminfo
+kitty-terminfo
+kitty
 less
 #lftp
 libfido2
@@ -66,7 +66,7 @@ lvm2
 #lynx
 man-db
 man-pages
-mc
+#mc
 mdadm
 memtest86+
 mkinitcpio
@@ -154,9 +154,9 @@ xf86-input-void
 xf86-video-amdgpu
 xf86-video-ati
 xf86-video-fbdev
-#xf86-video-intel
+xf86-video-intel
 xf86-video-nouveau
-xf86-video-openchrome
+#xf86-video-openchrome
 xf86-video-vesa
 xf86-video-vmware
 mesa
@@ -282,7 +282,7 @@ variety
 
 ###conky
 jq
-#lm_sensors
+lm_sensors
 
 ###cursors
 #xcursor-simpleandsoft
@@ -389,7 +389,7 @@ unace
 unrar
 unzip
 #vnstat
-w3m
+#w3m
 webkit2gtk
 wmctrl
 xapp
@@ -444,7 +444,7 @@ surfn-icons-git
 mkinitcpio-openswap
 
 ###utilities-repo
-alacritty
+#alacritty
 appstream
 archiso
 conky-lua-archers
@@ -464,7 +464,7 @@ paru-bin
 #peek
 #pulseaudio-equalizer-ladspa
 python-pyparted
-#python-pywal
+python-pywal
 rate-mirrors-bin
 #scour
 #screenkey-git

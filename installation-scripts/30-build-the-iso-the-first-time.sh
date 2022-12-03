@@ -27,7 +27,7 @@ echo
 	#First letter of desktop is small letter
 
 	desktop="xtended"
-	dmDesktop="openbox"
+	dmDesktop="i3"
 
 	arcolinuxVersion='v23.01.01'
 
@@ -35,8 +35,8 @@ echo
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 68-1"
-	buildFolder=$HOME"/arcolinuxb-build"
-	outFolder=$HOME"/ArcoLinuxB-Out"
+	buildFolder=$HOME"/Desktop/arcolinuxb-build"
+	outFolder=$HOME"/Desktop/ArcoLinuxB-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
 	
 	# If you are ready to use your personal repo and personal packages
